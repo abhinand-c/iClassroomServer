@@ -43,3 +43,14 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+def maintainance_404(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/404.html',
+        {
+            'title':'Home Page',
+            'year':datetime.now().year,
+        }
+    )
