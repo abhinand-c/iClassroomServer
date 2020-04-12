@@ -1,20 +1,43 @@
 {% extends "app/layout.html" %}
 
 {% block content %}
+  {% load static %}
 
-<div>
-    <h1>Home</h1>
-    <p class="lead"></p>
-    <p><a href="/chat" class="btn btn-primary btn-large">CHATS</a></p>
-     <p class="lead"></p>
-     <p><a href="/" class="btn btn-primary btn-large">Courses</a></p>
-     <p class="lead"></p>
-     <p><a href="https://iclassrtc.herokuapp.com/demos/dashboard/" class="btn btn-primary btn-large">Virtual Class</a></p>
-     <p class="lead"></p>
-     <p><a href="https://iclassrtc.herokuapp.com/demos/Scalable-Broadcast.html" class="btn btn-primary btn-large">Start Broadcast</a></p>
-     <p class="lead"></p>
-      <p><a href="/" class="btn btn-primary btn-large">Doubts</a></p>
-     <p class="lead"></p>
+    <h1>Home</h1> <br/>
+<div class="row">
+	<div class="col-md-4 col-sm-6">
+	<a href="https://iclassrtc.herokuapp.com/demos/dashboard/">
+	<img src="{% static 'app/img/home/card-virtualclass.svg' %}"  class="btn" style="height: 200px;" alt="Virtual Class"></a>
+</div>
+
+<div class="col-md-4  col-sm-6">
+     <p><a href="https://iclassrtc.herokuapp.com/demos/Scalable-Broadcast.html">
+	 <img src="{% static 'app/img/home/card-video.svg' %}"  class="btn" style="height: 200px;" alt="Start Video Broadcast">
+	 </a></p>
+</div>
+<div class="col-md-4  col-sm-6">
+     <p><a href="/" >
+	 <img src="{% static 'app/img/home/card-doubt.svg' %}"  class="btn" style="height: 200px;" alt="Doubts">
+	 </a></p>
+</div>
+<div class="col-md-4  col-sm-6">
+      <p><a href="/">
+	  <img src="{% static 'app/img/home/card-course.svg' %}"  class="btn" style="height: 200px;" alt="Courses">
+	  </a></p>
+</div>
+
+<div class="col-md-4  col-sm-6">
+      <p><a href="/">
+	  <img src="{% static 'app/img/home/card-tasks.svg' %}"  class="btn" style="height: 200px;" alt="Courses">
+	  </a></p>
+</div>
+
+<div class="col-md-4  col-sm-6">
+      <p><a href="/">
+	  <img src="{% static 'app/img/home/card-chat.svg' %}"  class="btn" style="height: 200px;" alt="Courses">
+	  </a></p>
+</div>
+
 
 </div>
 
