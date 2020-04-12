@@ -7,6 +7,7 @@ from django.urls import path
 from django.contrib import admin
 from django.contrib.auth.views import LoginView, LogoutView
 from app import forms, views
+from chat import views as chat_views
 from iClassroomServer import admin_site
 
 urlpatterns = [
@@ -27,5 +28,6 @@ urlpatterns = [
          name='login'),
     path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
     path('admin/', admin.site.urls),
-    path('404', views.maintainance_404, name='404')
+    path('404', views.maintainance_404, name='404'),
+    path('chat/',chat_views.home)
 ]

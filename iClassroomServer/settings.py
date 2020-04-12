@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # https://docs.djangoproject.com/en/2.1/ref/settings/#std:setting-INSTALLED_APPS
 INSTALLED_APPS = [
     'app',
+    'chat',
     # Add your apps here to enable them
     'django.contrib.admin',
     'django.contrib.auth',
@@ -121,6 +122,9 @@ STATICFILES_DIRS = (
 )
 
 
+LOGIN_URL='/login'
+
 # Configure Django App for Heroku.
 import django_heroku
 django_heroku.settings(locals())
+
