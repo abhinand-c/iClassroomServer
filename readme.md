@@ -12,11 +12,11 @@ Please refer https://github.com/mastercharizardx/iClassroom-Video for the WebRTC
 ## Local Installaion
 
 Create a python environment (Refer: [Conda Environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or [Python venv](https://docs.python.org/3/tutorial/venv.html) )
-Install dependencies listed in requirements.txt 
+Install dependencies listed in requirements.txt    
 ` pip instal -r requirements.txt `
 
 ### Create a superuser
-Before running the server for the first time, create a superuser account 
+Before running the server for the first time, create a superuser account   
 ` python manage.py createsuperuser `  
 
 ### Run the Server Locally
