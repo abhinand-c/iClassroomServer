@@ -1,4 +1,5 @@
-# iClassroom ![logo](https://github.com/mastercharizardx/iClassroomServer/blob/master/app/static/favicon.svg | width=10)
+<img src="https://github.com/mastercharizardx/iClassroomServer/blob/master/app/static/favicon.svg" alt="logo" height="10"></img>
+# iClassroom 
 For Demo visit : https://iclassroom.herokuapp.com/ and use the following credentials:  
 Username: demo
 Password: demo
