@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>
-    {{ title }}  - Yaathri
+    {{ title }} | iClassroom
   </title>
  {% load staticfiles %}
   <!-- Favicon -->
@@ -17,33 +17,19 @@
   <link href="{% static 'app/scripts/plugins/nucleo/css/nucleo.css' %}" rel="stylesheet" />
   <link href="{% static 'app/scripts/plugins/@fortawesome/fontawesome-free/css/all.min.css' %}" rel="stylesheet" />
   <!-- CSS Files -->
-  <link href="{% static 'app/css/argon-dashboard.css' %}" rel="stylesheet" />
+  <link href="{% static 'app/css/argon-dashboard.min.css' %}" rel="stylesheet" />
 </head>
 
 <body class="bg-default">
  {% block content %}{% endblock %}
  <!-- Footer -->
-      <footer class="col-xl-6">
-        <div class="row">
-	
-        <span class="copyright text-center text-xl-left text-muted">
-            Powered by --AC--
-        </span>
 
-		
-          <div class="ml-auto">
-            <div class="copyright text-center text-xl-left text-muted">
-              &copy; {{ year }} <a  class="font-weight-bold ml-1" >Yaathri</a>
-            </div>
-          </div>
-        </div>
-      </footer>
   <!--   Core   -->
     <script src="{% static 'app/scripts/plugins/jquery/dist/jquery.min.js' %}"></script>
   <script src="{% static 'app/scripts/plugins/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
 
-   <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
-    <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
+   <script src="{% static 'app/scripts/jquery-1.10.2.min.js' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap.min.js' %}"></script>
     <script src="{% static 'app/scripts/respond.js' %}"></script>
   <!--   Optional JS   -->
   <script src="{% static 'app/scripts/plugins/chart.js/dist/Chart.min.js' %}"></script>
