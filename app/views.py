@@ -43,7 +43,7 @@ def about(request):
         'app/about.html',
         {
             'title':'About',
-            'message':'Your application description page.',
+            'message':'iClassroom',
             'year':datetime.now().year,
         }
     )
