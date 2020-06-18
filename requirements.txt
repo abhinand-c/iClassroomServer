@@ -1,4 +1,4 @@
-django >= 2.1.6, < 3.0 
+django >= 2.2, < 3.0 
 django-heroku
 gunicorn
 django-glrm
